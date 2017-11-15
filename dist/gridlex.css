@@ -45,6 +45,12 @@
   [class*="grid-"][class*="-noGutter"] > [class*="col-"] {
     padding: 0; }
 
+[class*="grid-"][class*="-largeGutter"] {
+  margin: 0 -1rem; }
+  [class*="grid-"][class*="-largeGutter"] > [class~="col"],
+  [class*="grid-"][class*="-largeGutter"] > [class*="col-"] {
+    padding: 0 1rem 2rem; }
+
 [class*="grid-"][class*="-noWrap"] {
   flex-wrap: nowrap; }
 
@@ -624,6 +630,66 @@
 [class*="grid_"] > [data-push-right*="off-11"] {
   margin-right: 91.66667%; }
 
+[class~="grid"] > [data-order*="order-1"],
+[class*="grid-"] > [data-order*="order-1"],
+[class*="grid_"] > [data-order*="order-1"] {
+  order: 1; }
+
+[class~="grid"] > [data-order*="order-2"],
+[class*="grid-"] > [data-order*="order-2"],
+[class*="grid_"] > [data-order*="order-2"] {
+  order: 2; }
+
+[class~="grid"] > [data-order*="order-3"],
+[class*="grid-"] > [data-order*="order-3"],
+[class*="grid_"] > [data-order*="order-3"] {
+  order: 3; }
+
+[class~="grid"] > [data-order*="order-4"],
+[class*="grid-"] > [data-order*="order-4"],
+[class*="grid_"] > [data-order*="order-4"] {
+  order: 4; }
+
+[class~="grid"] > [data-order*="order-5"],
+[class*="grid-"] > [data-order*="order-5"],
+[class*="grid_"] > [data-order*="order-5"] {
+  order: 5; }
+
+[class~="grid"] > [data-order*="order-6"],
+[class*="grid-"] > [data-order*="order-6"],
+[class*="grid_"] > [data-order*="order-6"] {
+  order: 6; }
+
+[class~="grid"] > [data-order*="order-7"],
+[class*="grid-"] > [data-order*="order-7"],
+[class*="grid_"] > [data-order*="order-7"] {
+  order: 7; }
+
+[class~="grid"] > [data-order*="order-8"],
+[class*="grid-"] > [data-order*="order-8"],
+[class*="grid_"] > [data-order*="order-8"] {
+  order: 8; }
+
+[class~="grid"] > [data-order*="order-9"],
+[class*="grid-"] > [data-order*="order-9"],
+[class*="grid_"] > [data-order*="order-9"] {
+  order: 9; }
+
+[class~="grid"] > [data-order*="order-10"],
+[class*="grid-"] > [data-order*="order-10"],
+[class*="grid_"] > [data-order*="order-10"] {
+  order: 10; }
+
+[class~="grid"] > [data-order*="order-11"],
+[class*="grid-"] > [data-order*="order-11"],
+[class*="grid_"] > [data-order*="order-11"] {
+  order: 11; }
+
+[class~="grid"] > [data-order*="order-12"],
+[class*="grid-"] > [data-order*="order-12"],
+[class*="grid_"] > [data-order*="order-12"] {
+  order: 12; }
+
 @media screen and (max-width: 80em) {
   [class~="grid"] > [class*="_lg-1"],
   [class*="grid-"] > [class*="_lg-1"],
@@ -788,7 +854,55 @@
   [class~="grid"] [class*="_lg-last"],
   [class*="grid-"] [class*="_lg-last"],
   [class*="grid_"] [class*="_lg-last"] {
-    order: 1; } }
+    order: 1; }
+  [class~="grid"] > [data-order*="_lg-1"],
+  [class*="grid-"] > [data-order*="_lg-1"],
+  [class*="grid_"] > [data-order*="_lg-1"] {
+    order: 1; }
+  [class~="grid"] > [data-order*="_lg-2"],
+  [class*="grid-"] > [data-order*="_lg-2"],
+  [class*="grid_"] > [data-order*="_lg-2"] {
+    order: 2; }
+  [class~="grid"] > [data-order*="_lg-3"],
+  [class*="grid-"] > [data-order*="_lg-3"],
+  [class*="grid_"] > [data-order*="_lg-3"] {
+    order: 3; }
+  [class~="grid"] > [data-order*="_lg-4"],
+  [class*="grid-"] > [data-order*="_lg-4"],
+  [class*="grid_"] > [data-order*="_lg-4"] {
+    order: 4; }
+  [class~="grid"] > [data-order*="_lg-5"],
+  [class*="grid-"] > [data-order*="_lg-5"],
+  [class*="grid_"] > [data-order*="_lg-5"] {
+    order: 5; }
+  [class~="grid"] > [data-order*="_lg-6"],
+  [class*="grid-"] > [data-order*="_lg-6"],
+  [class*="grid_"] > [data-order*="_lg-6"] {
+    order: 6; }
+  [class~="grid"] > [data-order*="_lg-7"],
+  [class*="grid-"] > [data-order*="_lg-7"],
+  [class*="grid_"] > [data-order*="_lg-7"] {
+    order: 7; }
+  [class~="grid"] > [data-order*="_lg-8"],
+  [class*="grid-"] > [data-order*="_lg-8"],
+  [class*="grid_"] > [data-order*="_lg-8"] {
+    order: 8; }
+  [class~="grid"] > [data-order*="_lg-9"],
+  [class*="grid-"] > [data-order*="_lg-9"],
+  [class*="grid_"] > [data-order*="_lg-9"] {
+    order: 9; }
+  [class~="grid"] > [data-order*="_lg-10"],
+  [class*="grid-"] > [data-order*="_lg-10"],
+  [class*="grid_"] > [data-order*="_lg-10"] {
+    order: 10; }
+  [class~="grid"] > [data-order*="_lg-11"],
+  [class*="grid-"] > [data-order*="_lg-11"],
+  [class*="grid_"] > [data-order*="_lg-11"] {
+    order: 11; }
+  [class~="grid"] > [data-order*="_lg-12"],
+  [class*="grid-"] > [data-order*="_lg-12"],
+  [class*="grid_"] > [data-order*="_lg-12"] {
+    order: 12; } }
 
 @media screen and (max-width: 64em) {
   [class~="grid"] > [class*="_md-1"],
@@ -954,7 +1068,55 @@
   [class~="grid"] [class*="_md-last"],
   [class*="grid-"] [class*="_md-last"],
   [class*="grid_"] [class*="_md-last"] {
-    order: 1; } }
+    order: 1; }
+  [class~="grid"] > [data-order*="_md-1"],
+  [class*="grid-"] > [data-order*="_md-1"],
+  [class*="grid_"] > [data-order*="_md-1"] {
+    order: 1; }
+  [class~="grid"] > [data-order*="_md-2"],
+  [class*="grid-"] > [data-order*="_md-2"],
+  [class*="grid_"] > [data-order*="_md-2"] {
+    order: 2; }
+  [class~="grid"] > [data-order*="_md-3"],
+  [class*="grid-"] > [data-order*="_md-3"],
+  [class*="grid_"] > [data-order*="_md-3"] {
+    order: 3; }
+  [class~="grid"] > [data-order*="_md-4"],
+  [class*="grid-"] > [data-order*="_md-4"],
+  [class*="grid_"] > [data-order*="_md-4"] {
+    order: 4; }
+  [class~="grid"] > [data-order*="_md-5"],
+  [class*="grid-"] > [data-order*="_md-5"],
+  [class*="grid_"] > [data-order*="_md-5"] {
+    order: 5; }
+  [class~="grid"] > [data-order*="_md-6"],
+  [class*="grid-"] > [data-order*="_md-6"],
+  [class*="grid_"] > [data-order*="_md-6"] {
+    order: 6; }
+  [class~="grid"] > [data-order*="_md-7"],
+  [class*="grid-"] > [data-order*="_md-7"],
+  [class*="grid_"] > [data-order*="_md-7"] {
+    order: 7; }
+  [class~="grid"] > [data-order*="_md-8"],
+  [class*="grid-"] > [data-order*="_md-8"],
+  [class*="grid_"] > [data-order*="_md-8"] {
+    order: 8; }
+  [class~="grid"] > [data-order*="_md-9"],
+  [class*="grid-"] > [data-order*="_md-9"],
+  [class*="grid_"] > [data-order*="_md-9"] {
+    order: 9; }
+  [class~="grid"] > [data-order*="_md-10"],
+  [class*="grid-"] > [data-order*="_md-10"],
+  [class*="grid_"] > [data-order*="_md-10"] {
+    order: 10; }
+  [class~="grid"] > [data-order*="_md-11"],
+  [class*="grid-"] > [data-order*="_md-11"],
+  [class*="grid_"] > [data-order*="_md-11"] {
+    order: 11; }
+  [class~="grid"] > [data-order*="_md-12"],
+  [class*="grid-"] > [data-order*="_md-12"],
+  [class*="grid_"] > [data-order*="_md-12"] {
+    order: 12; } }
 
 @media screen and (max-width: 48em) {
   [class~="grid"] > [class*="_sm-1"],
@@ -1120,7 +1282,55 @@
   [class~="grid"] [class*="_sm-last"],
   [class*="grid-"] [class*="_sm-last"],
   [class*="grid_"] [class*="_sm-last"] {
-    order: 1; } }
+    order: 1; }
+  [class~="grid"] > [data-order*="_sm-1"],
+  [class*="grid-"] > [data-order*="_sm-1"],
+  [class*="grid_"] > [data-order*="_sm-1"] {
+    order: 1; }
+  [class~="grid"] > [data-order*="_sm-2"],
+  [class*="grid-"] > [data-order*="_sm-2"],
+  [class*="grid_"] > [data-order*="_sm-2"] {
+    order: 2; }
+  [class~="grid"] > [data-order*="_sm-3"],
+  [class*="grid-"] > [data-order*="_sm-3"],
+  [class*="grid_"] > [data-order*="_sm-3"] {
+    order: 3; }
+  [class~="grid"] > [data-order*="_sm-4"],
+  [class*="grid-"] > [data-order*="_sm-4"],
+  [class*="grid_"] > [data-order*="_sm-4"] {
+    order: 4; }
+  [class~="grid"] > [data-order*="_sm-5"],
+  [class*="grid-"] > [data-order*="_sm-5"],
+  [class*="grid_"] > [data-order*="_sm-5"] {
+    order: 5; }
+  [class~="grid"] > [data-order*="_sm-6"],
+  [class*="grid-"] > [data-order*="_sm-6"],
+  [class*="grid_"] > [data-order*="_sm-6"] {
+    order: 6; }
+  [class~="grid"] > [data-order*="_sm-7"],
+  [class*="grid-"] > [data-order*="_sm-7"],
+  [class*="grid_"] > [data-order*="_sm-7"] {
+    order: 7; }
+  [class~="grid"] > [data-order*="_sm-8"],
+  [class*="grid-"] > [data-order*="_sm-8"],
+  [class*="grid_"] > [data-order*="_sm-8"] {
+    order: 8; }
+  [class~="grid"] > [data-order*="_sm-9"],
+  [class*="grid-"] > [data-order*="_sm-9"],
+  [class*="grid_"] > [data-order*="_sm-9"] {
+    order: 9; }
+  [class~="grid"] > [data-order*="_sm-10"],
+  [class*="grid-"] > [data-order*="_sm-10"],
+  [class*="grid_"] > [data-order*="_sm-10"] {
+    order: 10; }
+  [class~="grid"] > [data-order*="_sm-11"],
+  [class*="grid-"] > [data-order*="_sm-11"],
+  [class*="grid_"] > [data-order*="_sm-11"] {
+    order: 11; }
+  [class~="grid"] > [data-order*="_sm-12"],
+  [class*="grid-"] > [data-order*="_sm-12"],
+  [class*="grid_"] > [data-order*="_sm-12"] {
+    order: 12; } }
 
 @media screen and (max-width: 36em) {
   [class~="grid"] > [class*="_xs-1"],
@@ -1286,7 +1496,55 @@
   [class~="grid"] [class*="_xs-last"],
   [class*="grid-"] [class*="_xs-last"],
   [class*="grid_"] [class*="_xs-last"] {
-    order: 1; } }
+    order: 1; }
+  [class~="grid"] > [data-order*="_xs-1"],
+  [class*="grid-"] > [data-order*="_xs-1"],
+  [class*="grid_"] > [data-order*="_xs-1"] {
+    order: 1; }
+  [class~="grid"] > [data-order*="_xs-2"],
+  [class*="grid-"] > [data-order*="_xs-2"],
+  [class*="grid_"] > [data-order*="_xs-2"] {
+    order: 2; }
+  [class~="grid"] > [data-order*="_xs-3"],
+  [class*="grid-"] > [data-order*="_xs-3"],
+  [class*="grid_"] > [data-order*="_xs-3"] {
+    order: 3; }
+  [class~="grid"] > [data-order*="_xs-4"],
+  [class*="grid-"] > [data-order*="_xs-4"],
+  [class*="grid_"] > [data-order*="_xs-4"] {
+    order: 4; }
+  [class~="grid"] > [data-order*="_xs-5"],
+  [class*="grid-"] > [data-order*="_xs-5"],
+  [class*="grid_"] > [data-order*="_xs-5"] {
+    order: 5; }
+  [class~="grid"] > [data-order*="_xs-6"],
+  [class*="grid-"] > [data-order*="_xs-6"],
+  [class*="grid_"] > [data-order*="_xs-6"] {
+    order: 6; }
+  [class~="grid"] > [data-order*="_xs-7"],
+  [class*="grid-"] > [data-order*="_xs-7"],
+  [class*="grid_"] > [data-order*="_xs-7"] {
+    order: 7; }
+  [class~="grid"] > [data-order*="_xs-8"],
+  [class*="grid-"] > [data-order*="_xs-8"],
+  [class*="grid_"] > [data-order*="_xs-8"] {
+    order: 8; }
+  [class~="grid"] > [data-order*="_xs-9"],
+  [class*="grid-"] > [data-order*="_xs-9"],
+  [class*="grid_"] > [data-order*="_xs-9"] {
+    order: 9; }
+  [class~="grid"] > [data-order*="_xs-10"],
+  [class*="grid-"] > [data-order*="_xs-10"],
+  [class*="grid_"] > [data-order*="_xs-10"] {
+    order: 10; }
+  [class~="grid"] > [data-order*="_xs-11"],
+  [class*="grid-"] > [data-order*="_xs-11"],
+  [class*="grid_"] > [data-order*="_xs-11"] {
+    order: 11; }
+  [class~="grid"] > [data-order*="_xs-12"],
+  [class*="grid-"] > [data-order*="_xs-12"],
+  [class*="grid_"] > [data-order*="_xs-12"] {
+    order: 12; } }
 
 /************************
     HIDING COLS

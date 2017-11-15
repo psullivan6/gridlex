@@ -1,5 +1,5 @@
 {
-  "name": "gridlex",
+  "name": "@union/gridlex",
   "description": "Just a Flexbox Grid System",
   "keywords": [
     "css",
@@ -13,10 +13,10 @@
   "url": "https://github.com/devlint/gridlex",
   "homepage": "http://gridlex.devlint.fr",
   "author": "https://github.com/devlint",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "repository": {
     "type": "git",
-    "url": "git@github.com:devlint/gridlex.git"
+    "url": "https://github.com/psullivan6/gridlex.git"
   },
   "license": "MIT",
 

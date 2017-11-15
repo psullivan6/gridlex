@@ -167,6 +167,7 @@
 *************************/
 @include makeCol(#{$gl-colName});
 @include makeOff(off);
+@include makeOrder(order);
 
 
 @each $mq-key, $mq-value in $gl-mq-list {
@@ -174,6 +175,7 @@
     @include makeCol(_#{$mq-key});
     @include makeOff(_#{$mq-key});
     @include makeFirstLast(_#{$mq-key});
+    @include makeOrder(_#{$mq-key});
   }
 }
 

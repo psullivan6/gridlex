@@ -192,3 +192,24 @@ $glp_col-11-12: (100%/11);
     > [data-push-right*="#{$off}-11"]{ margin-right: $glp_col-11; }
   }
 }
+
+// Function to generate the offset
+@mixin makeOrder($modifier)
+{
+  [#{$gl-attributeName}~="#{$gl-gridName}"],
+  [#{$gl-attributeName}*="#{$gl-gridName}-"],
+  [#{$gl-attributeName}*="#{$gl-gridName}_"] {
+    > [data-order*="#{$modifier}-1"]{ order: 1; }
+    > [data-order*="#{$modifier}-2"]{ order: 2; }
+    > [data-order*="#{$modifier}-3"]{ order: 3; }
+    > [data-order*="#{$modifier}-4"]{ order: 4; }
+    > [data-order*="#{$modifier}-5"]{ order: 5; }
+    > [data-order*="#{$modifier}-6"]{ order: 6; }
+    > [data-order*="#{$modifier}-7"]{ order: 7; }
+    > [data-order*="#{$modifier}-8"]{ order: 8; }
+    > [data-order*="#{$modifier}-9"]{ order: 9; }
+    > [data-order*="#{$modifier}-10"]{ order: 10; }
+    > [data-order*="#{$modifier}-11"]{ order: 11; }
+    > [data-order*="#{$modifier}-12"]{ order: 12; }
+  }
+}

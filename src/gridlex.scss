@@ -59,6 +59,15 @@
     }
   }
 
+// Large spacing between cols : largeGutter
+  &[#{$gl-attributeName}*="-largeGutter"]{
+    margin: 0 (-$gl-gutterLarge/2);
+    > [#{$gl-attributeName}~="#{$gl-colName}"],
+    > [#{$gl-attributeName}*="#{$gl-colName}-"]{
+      padding: 0 ($gl-gutterLarge/2) $gl-gutter-verticalLarge;
+    }
+  }
+
 // No Wrapping
   &[#{$gl-attributeName}*="-noWrap"]{
     flex-wrap: nowrap;
